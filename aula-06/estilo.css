@@ -1,0 +1,26 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(107, 105, 223);
+    text-align: center;
+}
+h1 {
+    color: darkmagenta;
+}
+section {
+    background-color: black;
+    border: 2px solid burlywood;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+h2 {
+    color: aliceblue;
+}
+p {
+    color: aliceblue;
+}
+a {
+    color: aquamarine;
+    font-weight: bold;
+}
