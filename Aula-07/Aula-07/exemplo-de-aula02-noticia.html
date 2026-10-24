@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da turma</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(174, 174, 175);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #principal {
+            width: 80px;
+            margin: 30px auto;
+            background-color: rgb(24,43, 73);
+            border: 1px solid rgb(0, 238, 255)
+        }
+        #topo_geral {
+            background-color: rgb(24,43, 73);
+            padding: 25px;
+            text-align: center;
+        }
+        #topo_gerel h1{
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(70, 130, 180);
+            padding: 10px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            gap: 17px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav a{
+            display: block;
+            color: rgb(0, 0, 0);
+            padding: 10px 16px;
+            border: 2px solid black;
+            text-decoration-line: none;
+
+        }
+        nav a:hover{
+            background-color: rgb(70, 130, 180);
+            color: rgb(255, 255, 255);
+
+        }
+
+        article{
+            margin: 25px;
+            padding: 20px;
+            border: 1px solid white;
+        }
+
+        #topo_article{
+            border-bottom: 2px blue;
+            margin-bottom: 20px;
+        }
+
+        #topo_article h2{
+            color: orangered;
+            margin-top: 0;
+        }
+article p{
+    color: rgb(24,43, 73);
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.data{
+    display: block;
+    color: seashell;
+    font-size: 14px;
+    margin-bottom: 15 px;
+}
+    </style>
+</head>
+<body>
+    <div id="pincipal">
+    <header id="topo_geral">
+        <h1>Portal da Turma</h1>
+
+        <p>Informaçaõ, tecnologia e  educaçaõ</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="">Inicio </a></li>
+            <li> <a href="">Noticias </a></li>
+            <li> <a href="">Galeria </a></li>
+            <li> <a href="">Contato </a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <header>
+                <h2>Alunos iniciam projeto de página pessoal</h2>
+
+                <span class="data">26 de setembro de 2026 | 10h23min</span>
+            </header>
+            <p>
+                Os estudantes da disciplina de Desenvolvimento 
+                Front-End iniciaram a criação da página pessoal.
+
+            </p>
+            O projeto utiliza titulos, parágrafos, imagens,
+            links, menus de nagação e diferentes elementos
+            semânticos.
+            <p>
+                Na próxima etapa, os estudante aplicarão CSS para
+                modificar o layout
+        </article>
+    </div>
+
+</body>
+</html>
